@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: url('bg_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; 
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px; 
+    max-width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+button, .btn {
+    width: 100%;
+    padding: 13px;
+    margin: 5px 0;
+    border: none;
+    background: #4A90E2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    transition: background 0.3s, transform 0.2s;
+   
+}
+.btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+button:hover, .btn:hover {
+    background: #357ABD;
+    transform: scale(1.02);
+}
+button:active, .btn:active {
+    transform: scale(0.98);
+}
+.forgot-password {
+    display: block;
+    color: #4A90E2;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.forgot-password:hover {
+    color: #357ABD;
+    text-decoration: underline;
+}
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
