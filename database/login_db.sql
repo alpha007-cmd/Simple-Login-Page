@@ -16,8 +16,8 @@
 
 
 -- Dumping database structure for Simple Login Page
-CREATE DATABASE IF NOT EXISTS `Simple Login Page` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
-USE `Simple Login Page`;
+CREATE DATABASE IF NOT EXISTS `login_db` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+USE `login_db`;
 
 -- Dumping structure for table Simple Login Page.users
 CREATE TABLE IF NOT EXISTS `users` (
