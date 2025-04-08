@@ -27,6 +27,19 @@ A responsive and modern **Login Page** integrated with **PHP** and **MySQL** for
 
 To run this project locally, follow these steps:
 
+## 📂 Project Structure
+
+```
+Login_Page/
+├── index.html / index.php
+├── style.css
+├── login.php
+├── db.php
+├── dashboard.php
+└── database/
+    └── login_db.sql
+```
+
 ### 📁 Clone the Repository
 ```
 git clone https://github.com/alpha007-cmd/Simple-Login-Page
@@ -57,19 +70,6 @@ $db = 'login_db';
 4. **Run the App**:
     - Place the project folder inside the `htdocs` (XAMPP) or `www` (WAMP) directory.
     - Navigate to `http://localhost/Login-Page` in your browser.
-
-## 📂 Project Structure
-
-```
-Login_Page/
-├── index.html / index.php
-├── style.css
-├── login.php
-├── db.php
-├── dashboard.php
-└── database/
-    └── login_db.sql
-```
 
 ## 🙌 Contributing
 
