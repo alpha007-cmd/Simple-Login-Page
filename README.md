@@ -11,10 +11,6 @@ A responsive and modern **Login Page** integrated with **PHP** and **MySQL** for
 - ✅ Input validation (HTML + PHP)
 - 🧠 Easy to customize and integrate into larger projects
 
-## 📸 Preview
-
-![Login Page Screenshot](https://via.placeholder.com/800x400.png?text=Login+Page+Preview) <!-- Replace this with an actual screenshot -->
-
 ## 🛠️ Technologies Used
 
 ### Frontend:
