@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 ### 📁 Clone the Repository
 ```
-git clone https://github.com/alpha007-cmd/Login_Page.git
+git clone https://github.com/alpha007-cmd/Simple-Login-Page
 cd Login_Page
 ```
 
